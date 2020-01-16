@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 41.26" style="enable-background:new 0 0 50 41.26;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#B8C1E1;}
+	.st2{fill:#98A5D4;}
+	.st3{fill:#7787C3;}
+	.st4{fill:url(#SVGID_2_);}
+	.st5{fill:#C4DF9A;}
+	.st6{fill:#A6CE64;}
+	.st7{fill:#B8D884;}
+</style>
+<radialGradient id="SVGID_1_" cx="37.181" cy="12.9155" r="11.5618" fx="37.1742" fy="16.6496" gradientTransform="matrix(1 0 0 0.3984 0 22.2596)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#B7B8BB"/>
+	<stop  offset="0.0289" style="stop-color:#B9BABD"/>
+	<stop  offset="0.1203" style="stop-color:#C1C3C5"/>
+	<stop  offset="0.3457" style="stop-color:#D3D5D6"/>
+	<stop  offset="0.5697" style="stop-color:#E0E1E2"/>
+	<stop  offset="0.7894" style="stop-color:#E7E9EA"/>
+	<stop  offset="1" style="stop-color:#ECEEEE"/>
+</radialGradient>
+<ellipse class="st0" cx="37.181" cy="27.405" rx="11.562" ry="4.606"/>
+<g>
+	<g>
+		<g>
+			<polygon class="st1" points="37.181,11.377 25.632,17.557 37.181,23.736 48.73,17.557 			"/>
+			<polygon class="st2" points="25.632,17.557 25.632,23.736 37.181,29.916 37.181,23.736 			"/>
+			<polygon class="st3" points="48.73,17.557 48.73,23.736 37.181,29.916 37.181,23.736 			"/>
+		</g>
+		<g>
+			<polygon class="st1" points="37.181,4.26 25.632,10.44 37.181,16.619 48.73,10.44 			"/>
+			<polygon class="st2" points="25.632,10.44 25.632,16.619 37.181,22.799 37.181,16.619 			"/>
+			<polygon class="st3" points="48.73,10.44 48.73,16.619 37.181,22.799 37.181,16.619 			"/>
+		</g>
+	</g>
+</g>
+<radialGradient id="SVGID_2_" cx="23.4871" cy="36.1317" r="11.5618" fx="23.4803" fy="39.8657" gradientTransform="matrix(1 0 0 0.3984 0 22.2596)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#B7B8BB"/>
+	<stop  offset="0.0289" style="stop-color:#B9BABD"/>
+	<stop  offset="0.1203" style="stop-color:#C1C3C5"/>
+	<stop  offset="0.3457" style="stop-color:#D3D5D6"/>
+	<stop  offset="0.5697" style="stop-color:#E0E1E2"/>
+	<stop  offset="0.7894" style="stop-color:#E7E9EA"/>
+	<stop  offset="1" style="stop-color:#ECEEEE"/>
+</radialGradient>
+<ellipse class="st4" cx="23.487" cy="36.654" rx="11.562" ry="4.606"/>
+<g>
+	<g>
+		<polygon class="st5" points="23.5,19.689 11.951,25.868 23.5,32.048 35.049,25.868 		"/>
+		<polygon class="st6" points="11.951,25.868 11.951,32.048 23.5,38.228 23.5,32.048 		"/>
+		<polygon class="st7" points="35.049,25.868 35.049,32.048 23.5,38.228 23.5,32.048 		"/>
+	</g>
+	<g>
+		<polygon class="st5" points="23.5,12.629 11.951,18.809 23.5,24.988 35.049,18.809 		"/>
+		<polygon class="st6" points="11.951,18.809 11.951,24.988 23.5,31.168 23.5,24.988 		"/>
+		<polygon class="st7" points="35.049,18.809 35.049,24.988 23.5,31.168 23.5,24.988 		"/>
+	</g>
+</g>
+</svg>

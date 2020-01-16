@@ -1,0 +1,457 @@
+/*! iBlocks Deliverable Portal Styles */
+
+@charset "UTF-8";
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+html {
+    background-color: rgb(60,60,60);
+}
+
+body.page-login .outer {
+  background-image: url("../images/Teq-Login-Auth_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+body.page-login header ul.menu {
+  position: fixed;
+  z-index: 100;
+  right: 1rem;
+  padding: 1rem;
+}
+
+header ul.menu li {
+  margin: 0 2px;
+  text-align: center;
+}
+
+body div.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+body div.outer div.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+div.outer div.middle div.inner {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 440px;
+  width: calc(100% - 40px);
+  padding: 44px;
+  margin-bottom: 28px;
+  background-color: transparent;
+  min-width: 320px;
+  min-height: 338px;
+  overflow: hidden;
+}
+
+div.outer div.middle div.footer {
+  width: inherit;
+  display: block;
+  background-color: transparent;
+  text-align: center;
+}
+
+div.footer p, div.footer a {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+div.inner .block .is-danger.error-msg {
+  height: 3.25rem;
+  display: flex;
+  background-color: #7c1313;
+  border-radius: 500px;
+  color: #fff;
+  text-align: center;
+}
+
+form#loginform {
+  margin-top: 3rem;
+}
+
+form#loginform label {
+  font-size: 75%;
+  color: #ffffff;
+}
+
+form#loginform p.login-username label, form#loginform p.login-password label {
+  margin-left: 1.25rem;
+}
+
+form#loginform [type='text'], form#loginform [type='password'] {
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 3.25rem;
+  padding: 0.25rem 1.25rem;
+  border: 1px solid #cacaca;
+  margin: 0 0 1.25rem;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #0a0a0a;
+  background-color: #fefefe;
+  -webkit-box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+  -webkit-box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.75);
+  border-radius: 500px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+form#loginform [type='text']:focus, form#loginform [type='password']:focus {
+  box-shadow: 0px 0px 25px 0px rgba(255,255,255,0.75);
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(255,255,255,0.75);
+}
+
+form#loginform p.login-remember {
+  float: left;
+  margin-top: 1.5rem;
+  margin-left: 1.75rem;
+}
+
+form#loginform p.login-submit {
+  float: right;
+  margin-top: 1rem;
+  margin-right: 1.75rem;
+}
+
+form#loginform p.login-submit input[type=submit] {
+  height: 3.25rem;
+  color: #ffffff;
+  background-color: rgb(69, 183, 20);
+  border: 2px solid rgb(69, 183, 20);
+  font-size: 1em;
+  outline: none;
+  padding: 0 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+
+form#loginform p.login-submit input[type=submit]:hover {
+  background-color: rgb(62, 108, 10);
+}
+
+body .white-fill {
+  fill:#FFFFFF;
+}
+
+body.archive.author {
+  background-color: rgb(60,60,60);
+  background-image: url("../images/Teq-User_Author_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+nav.navbar.columns a.navbar-item.iblock-logo img {
+  max-height: 2.5rem;
+}
+
+nav.navbar.columns, .columns.app {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+nav.navbar.columns .navbar-brand, nav.navbar.columns .navbar-item.search, nav.navbar.columns .navbar-end .navbar-item.contact, nav.navbar.columns .navbar-end .navbar-item.logout {
+  padding: 0 0;
+}
+
+nav.navbar.columns .navbar-brand h1.navbar-item.navbar-header {
+  overflow: hidden;
+}
+
+.navbar-brand h1.navbar-item.navbar-header a {
+  padding: 0 12rem 0 1.375rem;
+  background-image: url("../images/iblocks-logo_transparent.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 10rem;
+  font-size: 2.375rem;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+.navbar-brand h1.navbar-item.navbar-header a:hover {
+  color: rgb(255,118,125);
+}
+
+nav.navbar.columns .navbar-item.search input {
+  height: 100%;
+  padding-left: 2.5rem;
+  border: none;
+  background-color: transparent;
+  background-image: url("../images/iblock-input-search-background.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 2rem 2rem;
+  box-shadow: none;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+input.input::placeholder {
+  font-style: italic;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+input.input::placeholder {
+ color: #ffffff;
+}
+
+nav.navbar.columns {
+  background-color: rgb(60, 60, 60);
+}
+
+.navbar-end .navbar-item.contact a, .navbar-end .navbar-item.logout a {
+  height: 100%;
+  width: 5rem;
+}
+
+nav.navbar.columns .navbar-end .navbar-item.contact {
+  background-color: rgb(255,118,125);
+}
+
+nav.navbar.columns .navbar-end .navbar-item.logout {
+  background-color: rgb(0,0,0);
+}
+
+nav.navbar.columns .navbar-end .navbar-item.contact:hover, nav.navbar.columns .navbar-end .navbar-item.logout:hover {
+  background-color: rgb(255,79,88);
+}
+
+.columns.app aside {
+  padding: 0 0;
+  background-color: rgb(61, 68, 93);
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+}
+
+aside ul.menu-list.purchased li {
+  padding: 1.25rem 2rem;
+}
+
+aside ul.menu-list.purchased li.end {
+  border-bottom: 1px solid #ffffff;
+}
+
+ul.menu-list.purchased li h2 small {
+  display: block;
+  margin-left: 15px;
+  font-size: .75rem;
+  color: #ffffff;
+}
+
+ul.menu-list.purchased li h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.columns.app div.column.content {
+  padding: 3rem 3rem 12rem 3rem;
+}
+
+.column.content .columns.iblocks-container {
+
+}
+
+.column.content .columns.iblocks-container .iblock-selection {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.columns.iblocks-container .iblock-selection .card {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.columns.iblocks-container .iblock-selection .card:hover {
+  -moz-box-shadow: 0px 0px 25px 0px rgba(255,255,255,0.75);
+  box-shadow: 0px 0px 25px 0px rgba(255,255,255,0.75);
+}
+
+.card:hover .card-content a img {
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.card:hover .card-content a img.header-image {
+  transform: rotate(-10deg);
+}
+
+.iblock-selection .card .card-content {
+  position: relative;
+  z-index: 50;
+  text-align: center;
+}
+
+.iblock-selection .card span.iblock-grade-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12rem 24rem 0 0;
+  border-color: rgb(50,62,72) transparent transparent transparent;
+}
+
+.iblock-selection .card.EL span.iblock-grade-background {
+  border-color: rgb(161,215,132) transparent transparent transparent;
+}
+
+.iblock-selection .card.MS span.iblock-grade-background {
+  border-color: rgb(79,197,221) transparent transparent transparent;
+}
+
+.iblock-selection .card.HS span.iblock-grade-background {
+  border-color: rgb(153,149,214) transparent transparent transparent;
+}
+
+.iblock-selection .card span.iblock-type-background {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 0;
+  width: 70px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.iblock-selection .card.Foundation span.iblock-type-background {
+  background-image: url("../images/iblock-type-background-foundation.svg");
+}
+
+.iblock-selection .card.Foundation.Plus span.iblock-type-background {
+  background-image: url("../images/iblock-type-background-foundation-plus.svg");
+}
+
+.iblock-selection .card.Essential span.iblock-type-background {
+  background-image: url("../images/iblock-type-background-foundation-essential.svg");
+}
+
+.iblock-selection .card-content h4 {
+  font-weight: 200;
+}
+
+.iblock-selection .card-content p a.button {
+  background-color: rgb(255,118,125);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 1.25rem 1.75rem;
+  font-weight: 300;
+  font-size: 85%;
+  color: #ffffff;
+}
+
+.iblock-selection .card-content p a.button:hover {
+  background-color: rgb(255,79,88);
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+}
+
+.column.iblocks-card-container {
+  margin-top: 10%;
+  padding-bottom: 12.375%;
+}
+
+.column.iblocks-card-container .iblock.card {
+  -moz-box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.5);
+}
+
+.iblock-card-content .iblock.table {
+  width: 100%;
+}
+
+.iblock.table tbody th {
+  text-align: right;
+}
+
+.iblock.table tbody td, .iblock.table tbody th {
+  border-bottom: 1px solid #ffffff;
+  font-size: .85rem;
+}
+
+.iblock.table tbody tr {
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.iblock.table tbody tr a {
+  display: block;
+  padding: 1.125rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.iblock.table tbody tr:hover {
+  cursor: pointer;
+}
+
+.iblock.table tbody tr {
+  background-color: rgba(79,197,221,0.15);
+}
+
+.iblock.table tbody tr:hover {
+  background-color: rgb(255,118,125);
+}
+
+.iblock.table tbody tr.iblock-table-title {
+  background-color: rgb(60,60,60);
+}
+
+.iblock.table tbody tr:nth-child(even):hover a, .iblock.table tbody tr:nth-child(odd):hover a {
+  color: #ffffff;
+}
+
+.iblock.table tbody tr.iblock-table-title td, .iblock.table tbody tr.iblock-table-title th {
+  padding: 1.125rem;
+  border-bottom: none;
+  font-weight: 500;
+  font-size: 1.15rem;
+  color: #ffffff;
+}
+
+tr.iblock-table-title th {
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  background-size: 3rem;
+}
+
+tr.iblock-table-title th.IBF {
+  background-image: url("../images/iblock-type-background-foundation.svg");
+}
+
+tr.iblock-table-title th.IBFP {
+  background-image: url("../images/iblock-type-background-foundation-plus.svg");
+}
+
+tr.iblock-table-title th.IBE {
+  background-image: url("../images/iblock-type-background-foundation-essential.svg");
+}
+
+p.footer-text {
+  padding: 5rem;
+}
